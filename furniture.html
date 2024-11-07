@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Furniture</title>
+    <style>
+        /* nav */
+        .nav0{
+            position: relative;
+            width: 100%;
+        }
+
+        .logonav {
+            width: 100px;
+            height: 80px;
+        }
+
+        .navcart {
+            width: 30px;
+            height: 30px;
+        }
+
+
+        /* banner 1 start */
+        .imgban {
+            height: 600px;
+        }
+
+        .furban {
+            position: relative;
+            width: 100%;
+        }
+
+        .furbanntext {
+            position: relative;
+            bottom: 500px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            margin-left: 10%;
+        }
+
+        .furbanntext1 {
+            position: relative;
+            font-size: 80px;
+            background-color: transparent;
+            color: rgb(0, 0, 0);
+        }
+
+        .furbanbtn {
+            position: relative;
+            bottom: 500px;
+            height: 50px;
+            width: 250px;
+            border-radius: 50px 2px;
+            margin-left: 15%;
+            background-color: transparent;
+            color: #4e4141;
+        }
+
+        .furbanbtn:hover {
+            background-color: #5bd738;
+            color: whitesmoke;
+        }
+
+        /*banner 1 end */
+
+
+        /*banner 2 start */
+
+        .ban2 {
+            position: relative;
+            bottom: 250px;
+            width: 100%;
+        }
+
+        .ban2L {
+            position: relative;
+            height: 500px;
+
+        }
+
+        .ban2R {
+            position: relative;
+            height: 500px;
+
+        }
+
+        .ban2R1 {
+            position: relative;
+            bottom: 320px;
+            text-align: center;
+            font-size: xxx-large;
+            background: -webkit-linear-gradient(#5bd738, #4e4141);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+
+        .ban2R2 {
+            position: relative;
+            bottom: 320px;
+            text-align: center;
+            background: -webkit-linear-gradient(#5bd738, #4e4141);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .ban2bt {
+            position: relative;
+            bottom: 320px;
+            height: 50px;
+            width: 250px;
+            border-radius: 50px 2px;
+            margin-left: 35%;
+            background-color: transparent;
+            color: #4e4141;
+        }
+
+        .ban2bt:hover {
+            background-color: #5bd738;
+            color: whitesmoke;
+        }
+
+        /*banner 2 end */
+
+
+        /*banner 3 start */
+
+        .ban3 {
+            position: relative;
+            bottom: 300px;
+            width: 100%;
+        }
+
+        .ban3L {
+            position: relative;
+            height: 500px;
+            bottom: 10px;
+        }
+
+        .ban3L1 {
+            position: relative;
+            bottom: 330px;
+            text-align: center;
+            font-size: xxx-large;
+            background: -webkit-linear-gradient(#5bd738, #4e4141);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .ban3L2 {
+            position: relative;
+            bottom: 330px;
+            text-align: center;
+            background: -webkit-linear-gradient(#5bd738, #4e4141);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .ban3bt {
+            position: relative;
+            bottom: 350px;
+            height: 50px;
+            width: 250px;
+            border-radius: 50px 2px;
+            margin-left: 35%;
+            background-color: transparent;
+            color: #4e4141;
+        }
+
+        .ban3bt:hover {
+            background-color: #5bd738;
+            color: whitesmoke;
+        }
+
+        .ban3R {
+            position: relative;
+            height: 500px;
+            bottom: 10px;
+        }
+
+        /*banner 3 end */
+
+
+        /* banner 4 start */
+        .ban4 {
+            position: relative;
+            bottom: 450px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* banner 4 end */
+
+
+        /* banner 5 start */
+        .ban5 {
+            position: relative;
+            bottom: 200px;
+            height: 280px;
+            bottom: 430px;
+            width: 100%;
+            background-color: rgb(232, 229, 229);
+        }
+
+        .b5h {
+            position: relative;
+            text-align: left;
+            margin-left: 10%;
+            margin-top: 5%;
+            color: rgb(69, 214, 64);
+        }
+
+        .b25h {
+            position: relative;
+            text-align: left;
+            margin-left: 10%;
+            background: -webkit-linear-gradient(#5bd738, #4e4141);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+
+        .b5btn {
+            position: relative;
+            text-align: left;
+            margin-left: 10%;
+            color: #4e4141;
+            height: 50px;
+            width: 250px;
+            border-radius: 50px;
+            text-align: center;
+            margin-top: 1%;
+
+
+        }
+
+        .b5btn:hover {
+            background-color: #5bd738;
+            color: whitesmoke;
+        }
+
+        .ban5img {
+            position: relative;
+            height: 280px;
+        }
+
+        /* banner 5 end */
+
+
+        /* banner 6(H) start */
+        .ban6h{
+            position: relative;
+            width: 100%;
+        }
+        .ban6head {
+            position: relative;
+            text-align: center;
+            bottom: 380px;
+            background: -webkit-linear-gradient(#5bd738, #4e4141);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* banner 6(H) end */
+
+
+        /* banner 6  Main start */
+        .ban6main {
+            position: relative;
+            bottom: 400px;
+            margin-left: 3%;
+            padding: 5%;
+            padding-right: 5%;
+
+        }
+
+        .b6img1 {
+            position: relative;
+            height: 380px;
+        }
+
+        .b6img2 {
+            position: relative;
+            height: 380px;
+        }
+
+        .b6img3 {
+            position: relative;
+            height: 380px;
+        }
+
+        .b6img4 {
+            position: relative;
+            height: 380px;
+        }
+
+        /* banner 6  Main start */
+
+
+        /* banner 7  head start */
+        .ban7{
+            position: relative;
+            width: 100%;
+        }
+        .ban7testihead {
+            position: relative;
+            text-align: center;
+            bottom: 400px;
+            background: -webkit-linear-gradient(#5bd738, #4e4141);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+
+        /* banner 7  head end */
+
+
+        /* banner 7  main start */
+        .ban7{
+            position: relative;
+            width: 100%;
+        }
+        .ban7testimain {
+            position: relative;
+            bottom: 370px;
+            margin: 3%;
+        }
+
+        .ban71 {
+            position: relative;
+    
+            
+            text-align: justify;
+            color: #4e4141;
+        }
+
+        .ban71img {
+
+            position: relative;
+            margin-left: 130px;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .ban72 {
+            position: relative;
+
+            
+            text-align: justify;
+            color: #4e4141;
+        }
+
+        .ban72img {
+
+            position: relative;
+            margin-left: 90px;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+
+        }
+
+        .ban73 {
+            position: relative;
+
+            
+            text-align: justify;
+            color: #4e4141;
+        }
+
+        .ban73img {
+
+            position: relative;
+            margin-left: 90px;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        /* banner 7  Main end */
+
+
+        /* banner 8 start */
+        .b8{
+            position: relative;
+            width: 100%;
+        }
+        .b8bannerimg {
+            position: relative;
+            height: 300px;
+            width: 100%;
+            bottom: 250px;
+        }
+
+        .b8body {
+            position: relative;
+            bottom: 430px;
+            font-size: xx-large;
+            text-align: center;
+        }
+
+        .b8icon {
+            position: relative;
+            bottom: 410px;
+            text-align: center;
+        }
+        
+        /* banner 8 end */
+
+        /* banner 9 start */
+        .b90{
+            position: relative;
+            margin-left: 15%;
+            width: 100%;
+        }
+        .b91{
+            position: relative;
+            bottom: 250px;
+            text-decoration: none;
+        }
+        .b92{
+            position: relative;
+            bottom: 250px;
+            text-decoration: none;
+            
+        }
+        .b91btn {
+            position: relative;
+            text-align: left;
+            bottom: 280px;
+            color: #4e4141;
+           
+           
+            border-radius: 50px;
+            text-align: center;
+            margin-top: 1%;
+            background: -webkit-linear-gradient(#5bd738, #4e4141);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .ban9btn{
+            position: relative;
+            border-radius: 50px  ;
+            background: -webkit-linear-gradient(#5bd738, #4e4141);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* banner 9 end */
+
+        /* banner 10 start  footer*/
+        .banfoot{
+            position: relative;
+            background-color: #696969;
+            color: whitesmoke;
+            height: 300px;
+            
+            
+        }
+        
+        
+
+            
+        
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- navbar start -->
+        <div class="row nav0">
+            <div class="col">
+                <ul class="nav" style="width: 100%;">
+                    <img src="furlogo.webp" alt="Furniture logo" class="logonav mx-3">
+                    <li class="nav-item mt-3">
+                        <a class="nav-link fs-3 text-dark fw-bold fst-italic mx-2 " aria-current="page" href="#">All
+                            Products</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link fs-3 text-dark fw-bold fst-italic mx-2" href="#">Sofa</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link fs-3 text-dark fw-bold fst-italic mx-2" href="#">Chair</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link fs-3 text-dark fw-bold fst-italic mx-2 " href="#">Table</a>
+                    </li>
+
+
+
+
+                    <li class="nav-item mt-3 mx-5">
+                        <a class="nav-link fs-3 text-dark fw-bold fst-italic mx-2 " href="#">About Us</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link fs-3 text-dark fw-bold fst-italic mx-2" href="#">My Account</a>
+                    </li>
+                    <h3 class="h3 text-muted fw-bold fst-italic mt-4 px-4">$0.00</h3>
+                    <img src="furcart.png" alt="cart" class="navcart mt-4 ">
+                </ul>
+            </div>
+        </div>
+                    
+                    
+                
+            </div>
+        </div>
+        <!-- navbar end -->
+
+        <!-- banner1 start -->
+        <div class="row furban mt-2">
+            <div class="col">
+                <div class="card" style="width:100%">
+                    <img src="furbanner.jpg" class="card-img-top  imgban img-fluid" alt="banner"
+                        class="img-fluid furban">
+                </div>
+                <div class="row furbanntext ">
+                    <h1 class="h1 furbanntext1 ">Style <br>Comfort & <br>Affordable</h1>
+                </div>
+                <div>
+                    <button class="furbanbtn fw-bold">Explore Store <span
+                            style='font-size:20px;'>&#8594;</span></button>
+                </div>
+            </div>
+        </div>
+        <!-- banner1 end -->
+
+        <!-- banner2 start  -->
+        <div class="row ban2">
+            <div class="col-4">
+                <div class="imgban2">
+                    <img src="furban2L.webp" alt="furban2L" class="ban2L img-fluid">
+                </div>
+            </div>
+            <div class="col-8">
+                <img src="furban2R.jpg" alt="furban2R" class="ban2R img-fluid">
+
+
+                <h2 class="h2 ban2R1">Chair Collection!</h2>
+                <p class="text ban2R2">Launch Offer 15% Off!</p>
+                <button class="ban2bt fw-bold">View Collection <span style='font-size:20px;'>&#8594;</span> </button>
+            </div>
+        </div>
+        <!-- banner2 end -->
+
+        <!-- banner3 start -->
+        <div class="row ban3">
+            <div class="col-8">
+                <img src="furban2R.jpg" alt="furban3L" class="ban3L img-fluid">
+
+
+                <h2 class="h2 ban3L1">Modern Collection!</h2>
+                <p class="text ban3L2">New Season Stock</p>
+                <button class="ban2bt fw-bold">View Collection <span style='font-size:20px;'>&#8594;</span> </button>
+            </div>
+
+            <div class="col-4">
+                <div class="imgban3">
+                    <img src="furban3R.webp" alt="furban3R" class="ban3R img-fluid">
+                </div>
+            </div>
+        </div>
+        <!-- banner 3 end -->
+
+        <!-- banner 4 start ribbon -->
+        <div class="row ban4">
+            <div class="col-3">
+                <img src="furcertificate.png" alt="">
+            </div>
+            <div class="col-3">
+                <img src="furdelivery.png" alt="">
+            </div>
+            <div class="col-3">
+                <img src="furcs.png" alt="">
+            </div>
+            <div class="col-3">
+                <img src="furwaranty.png" alt="">
+            </div>
+        </div>
+        <!-- banner 4 end ribbon -->
+
+        <!-- banner 5 start -->
+        <div class="row ban5">
+            <div class="col-6 banner5">
+                <h1 class=" h1 b5h fw-bold">Sale!</h1>
+                <h2 class="h2 b25h">10% Off On All Products!</h2>
+                <button class="b5btn fw-bold">Shop Now <span style='font-size:20px;'>&#8594;</span></button>
+            </div>
+            <div class="col-6">
+                <img src="furban5.jpg" alt="" class="img-fluid ban5img">
+            </div>
+        </div>
+        <!-- banner 5 end -->
+
+        <!-- banner 6 heading start -->
+        <div class="row b6h">
+            <div class="col ban6head">
+                <h2 class="h2 fw-bold">Our Latest Products</h2>
+            </div>
+        </div>
+        <!-- banner 6 heading end -->
+
+        <!-- banner 6 main start (cards(4))-->
+        <div class="row ban6main">
+            <div class="col-3">
+                <div class="card">
+                    <img src="furban61.jpg" class="card-img-top b6img1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-muted text-center">Unique Handcarved Sofa </h5>
+                        <p class="card-text text-center fw-bold"><strike>$2920.00</strike> $2480.00</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="furban62.webp" class="card-img-top b6img2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-muted text-center">Teak Wood Chair</h5>
+                        <p class="card-text text-center fw-bold"><strike>$1220.00</strike> $1010.00</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="furban63.webp" class="card-img-top b6img3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-muted text-center">Adiko Back-Office Chair</h5>
+                        <p class="card-text text-center fw-bold"> $1200.00</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="furban64.avif" class="card-img-top b6img4" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-muted text-center">Charc-Grey Accent Chair</h5>
+                        <p class="card-text text-center fw-bold">$950.00</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- banner 6 Main end -->
+
+        <!-- Banner 7 start Testimonial -->
+        <div class="row b7">
+            <div class="col ban7testihead">
+                <h2 class="h2 fw-bold">Testimonials</h2>
+            </div>
+        </div>
+        <div class="row ban7testimain">
+            <div class="col-4">
+                <p class="text ban71">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut elit tellus, luctus
+                    nec ullamcorper mattis, pulvinar dapibus leo"</p>
+                <img src="furban71.jpg" alt="" class="img-fluid ban71img ">
+            </div>
+            <div class="col-4">
+
+                <p class="text ban72 ">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut elit tellus, luctus
+                    nec ullamcorper mattis, pulvinar dapibus leo"</p>
+                <img src="furban72.avif" alt="" class="img-fluid ban72img ">
+            </div>
+            <div class="col-4">
+
+                <p class="text ban73">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut elit tellus, luctus
+                    nec ullamcorper mattis, pulvinar dapibus leo"</p>
+                <img src="furban73.jpg" alt="" class="img-fluid ban73img ">
+            </div>
+        </div>
+        <!-- Banner 7 end Testimonial -->
+
+        <!-- Banner 8 start -->
+        <div class="row b8">
+            <div class="col b8banner">
+                <img src="b8banner.jpg" alt="" class="img-fluid b8bannerimg">
+            </div>
+            <div class="b8body fw-bold">
+                Connect with Us
+            </div>
+            <div class=" b8icon">
+                <img src="furbanicon1.png" alt="">
+                <img src="furbanicon2.png" alt="">
+                <img src="furbanicon3.png" alt="">
+                <img src="furbanicon4.png" alt="">
+                <img src="furbanicon5.png" alt="">
+            </div>
+        </div>
+        <!-- Banner 8 end -->
+
+        <!-- Banner 9 start -->
+         <div class="row b90">
+            <div class="col-2">
+                <ul class="list-group b91">
+                    <li class="list-group fw-bold ">Product Links</li>
+                    <li class="list-group">All Products</li>
+                    <li class="list-group">Sofa</li>
+                    <li class="list-group">Chair</li>
+                    <li class="list-group">Table</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul class="list-group b91">
+                    <li class="list-group fw-bold ">Chairs</li>
+                    <li class="list-group">Chair</li>
+                    <li class="list-group">Armchair</li>
+                    <li class="list-group">Recliner</li>
+                    <li class="list-group">Stool</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul class="list-group b92">
+                    <li class="list-group fw-bold ">Table</li>
+                    <li class="list-group">Study Table</li>
+                    <li class="list-group">Table</li>
+                    <li class="list-group">Computer table</li>
+                   
+                </ul>
+            </div>
+            <div class="col-3 b91btn">
+                <h2>Have Questions?</h2>
+                <br>
+                <button class="ban9btn fw-bold">View Collection <span style='font-size:20px;'>&#8594;</span> </button>
+            </div>
+            
+         </div>
+         <!-- Banner 9 end -->
+
+         <!-- Banner 10 start footer -->
+         <footer class="banfoot">
+            <div class="row banfoot1">
+                <div class="col-5 mx-5 mt-3" >
+                    <p>Copyright@2024 Furniture Store</p>
+                </div>
+                <div class="col-5 mx-5 mt-3">
+                    <p>Powered by Furniture Store</p>
+                </div>
+              </div>
+         </footer> 
+         
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
